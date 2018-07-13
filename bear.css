@@ -1,0 +1,82 @@
+nav{
+	border:solid purple;
+	padding: 10px;
+	word-spacing: 15px;
+	width: 100%;
+	height:15px;
+}
+nav:hover{
+	background-color: rgba(242, 242, 242,0.2);}
+
+	a{
+	text-decoration: none;
+	color:   pink;
+}
+.contain{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+	background-image: url("andy-brunner-21063-unsplash.jpg");
+     background-size:100% 100%;
+
+     background-repeat: no-repeat;
+
+
+}
+hr{
+	color:purple;
+}
+.uy{
+	float: left;
+	width:800px;
+	height:550px;
+	
+	box-shadow: 5px 5px 5px 5px #888888;
+	background-attachment: fixed;
+	overflow: scroll;
+	
+}.pp{
+	float: right;
+	width: 700px;
+	height: 550px;
+	text-align: center;
+
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 700px;
+}
+h2{
+	font-family: monospace;
+	font-size: 2em;
+	border-bottom: 2px solid green;
+	text-align: center;
+	box-shadow: 0px 0px 08px   #888888;
+	
+	margin-bottom: 100px;
+}
+p{
+	 color:  green;
+	 font-family: cursive;
+}
+img{
+height: 520px;
+width: 650px;
+box-shadow: 5px 5px 5px 5px #888888  ;
+}
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>

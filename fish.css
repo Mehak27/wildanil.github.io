@@ -1,0 +1,49 @@
+nav{
+
+border: solid purple;
+
+padding: 10px;
+word-spacing: 15px;
+width: 100%;
+height: 15px;
+}
+h2{
+   margin-left: 49%;
+   margin-bottom: 50%;
+	text-align: center;
+	font-family: 'Gaegu', cursive;
+    color:  #008080;
+}
+nav:hover{
+	background-color: rgba(242, 242, 242,0.2);
+}
+a{
+	text-decoration: none;
+	color:   pink;
+}
+.contain{
+	height: 50%;
+	width: 100%;
+	display: flex;
+	flex-wrap:wrap;
+	background-image: url("https://static.pexels.com/photos/213399/pexels-photo-213399.jpeg");
+     background-size:100% 100%;
+
+     
+}
+p{color:#006600;
+	font-style: oblique;
+
+}
+hr{
+	color:purple;
+}
+dt{
+	color:#006600;
+	font-style: oblique;
+	font: bold;
+}
+dl{
+	color:#006600;
+	font-style: oblique;
+}
